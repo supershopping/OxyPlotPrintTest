@@ -37,7 +37,7 @@ namespace OxyPlotPrintTest
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Visual visual = Main as Visual;
+            Visual visual = ReportGrid as Visual;
             Print(visual);
         }
 

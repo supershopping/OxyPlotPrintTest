@@ -17,8 +17,8 @@
         <oxy:PlotView x:Name="plot"/>
 
         <StackPanel Grid.Column="1">
-            <Button  Content="Add Data" Click="Button_Click_1" Height="150"/>
-            <Button Content="Print" Click="Button_Click" Height="150"/>
+            <Button  Content="Add Data" Click="Button_Click_1" Height="150" Margin="20"/>
+            <Button Content="Print" Click="Button_Click" Height="150" Margin="20"/>
         </StackPanel>
 
     </Grid>
